@@ -1,4 +1,4 @@
-FROM python:3-stretch-ci
+FROM python:3-stretch
 
 MAINTAINER "Jeremy CURNY" <jeremy.curny.pro@gmail.com>
 
