@@ -9,6 +9,9 @@ RUN  \
     && apt-get install -y git rsync sshpass unzip zip \
     && apt-get clean autoclean \
     && apt-get autoremove
+    
+RUN \
+    pip install awscli
 
 RUN \
     mkdir -p /root/.ssh \
